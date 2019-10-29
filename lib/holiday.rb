@@ -79,7 +79,7 @@ answer=[]
       end
     end
   end
-  return answer
+  return answer << :fourth_of_july
 end
 
 
