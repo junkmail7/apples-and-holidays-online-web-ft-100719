@@ -79,7 +79,8 @@ answer=[]
       end
     end
   end
-  return answer << :fourth_of_july
+  answer << :fourth_of_july
+  return answer.reverse
 end
 
 
