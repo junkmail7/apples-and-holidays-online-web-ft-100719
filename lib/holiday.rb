@@ -70,9 +70,15 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-  
-  return holiday_hash[:summer][:memorial_day]
-  return holiday_hash[:summer][:fourth_of_july]
+answer=[]
+  holiday_hash.each do |key,value|
+    value.each do |k,v|
+      if v=="BBQ"
+        answer << value
+      end
+    end
+  end
+  return answer
 end
 
 
