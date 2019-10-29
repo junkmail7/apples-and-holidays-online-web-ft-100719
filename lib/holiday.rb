@@ -74,7 +74,7 @@ answer=[]
   holiday_hash.each do |key,value|
     value.each do |k,v|
       #binding.pry
-      if v==["BBQ"]||["Fireworks", "BBQ"]
+      if v==["BBQ"]
         answer << k
       end
     end
