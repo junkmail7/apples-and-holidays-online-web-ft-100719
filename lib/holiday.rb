@@ -79,6 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
     end
   end
   return answer
+  return holiday_hash[:summer][:memorial_day]
   return holiday_hash[:summer][:fourth_of_july]
 end
 
