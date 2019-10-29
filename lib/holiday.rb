@@ -73,6 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
 answer=[]
   holiday_hash.each do |key,value|
     value.each do |k,v|
+      binding.pry
       if v=="BBQ"
         answer << value
       end
