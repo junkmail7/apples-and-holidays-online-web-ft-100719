@@ -75,7 +75,7 @@ answer=[]
     value.each do |k,v|
       #binding.pry
       if v==["BBQ"]
-        answer << value
+        answer << k
       end
     end
   end
